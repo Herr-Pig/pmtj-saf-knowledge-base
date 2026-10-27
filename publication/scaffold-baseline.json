@@ -1,0 +1,15 @@
+{
+  "purpose": "freeze non-scientific placeholder pages; not scientific publication approval",
+  "docs": {
+    "docs/formulas.md": "23f839c1ac49dab2f971fdd407e9b9f17e127323fa1a75df12277cc8532daed0",
+    "docs/index.md": "08f2bd94f34fe3c5c4f9b111283bc8e0fa93cb65dcca816d67a45534b6794142",
+    "docs/assets/vendor/katex/provenance.json": "720bf7695d9ee1a3fc5f67041827f9f1b6184cde69387be17d851b8582baf756",
+    "docs/library/index.md": "a1085eabe84a314b401176fba50d7686ad399e90c39689dc5d9dd976a9fd2f31",
+    "docs/topics/01-pmtj-saf-design.md": "0d31ff6671e6483c2065e764549cb33ab2f0499aaa25057d5033d7d116f3483a",
+    "docs/topics/02-w-ferromagnetic-coupling.md": "890a279bfaffa1dd41e01354898f1f1c347b55b7ecbfa5e8d6acf8bc4e35591b",
+    "docs/topics/03-ru-antiferromagnetic-coupling.md": "d35e48b45136895f516f7f7020883ca77234bbce24e12f6a08e559bc4d37c6c7",
+    "docs/topics/04-copt-pma-optimization.md": "f16f91a1761daf86710bd5a5440d085b2c90ccdcf20efcde75ad2f408c21e800",
+    "docs/topics/05-moment-and-reversal.md": "4ce0da3f02b466c040dad93774097ae8518966b997ce8391fb92ff41e10fcc03",
+    "docs/topics/06-models-and-criteria.md": "0434abd83e8998c2a5d37f33c933a972aff8ff35a20fa89635f2eefc64ec46fe"
+  }
+}

@@ -1,0 +1,54 @@
+name: Manual reviewed GitHub Pages publication
+on:
+  workflow_dispatch:
+    inputs:
+      reviewed_commit:
+        description: Full commit SHA reviewed by the owner
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: manual-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Audit complete committed content and owner approval
+        env:
+          REVIEWED_COMMIT: ${{ inputs.reviewed_commit }}
+        run: python tools/publication_audit.py --release --expected-commit "$REVIEWED_COMMIT"
+      - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+      - run: python tools/site.py build
+      - name: Resolve generated site
+        id: site
+        run: |
+          output=$(python tools/site.py path)
+          printf 'path=%s\n' "$output" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: ${{ steps.site.outputs.path }}
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy reviewed artifact
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

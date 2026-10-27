@@ -1,0 +1,56 @@
+site_name: PMTJ-SAF Knowledge Base
+site_description: 公开文献知识库；科学内容须所有者逐文件审核
+site_url: https://herr-pig.github.io/pmtj-saf-knowledge-base/
+repo_url: https://github.com/Herr-Pig/pmtj-saf-knowledge-base
+docs_dir: docs
+site_dir: .build/site
+strict: true
+theme:
+  name: material
+  language: zh
+  font: false
+  palette:
+    primary: blue grey
+    accent: teal
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+plugins:
+  - search:
+      lang: [zh, en]
+      pipeline: []
+hooks:
+  - tools/public_docs.py
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+extra_css:
+  - assets/vendor/katex/katex.min.css
+extra_javascript:
+  - assets/vendor/katex/katex.min.js
+  - assets/math.js
+nav:
+  - 首页: index.md
+  - 六个专题:
+      - 01 整体结构设计: topics/01-pmtj-saf-design.md
+      - 02 W铁磁耦合: topics/02-w-ferromagnetic-coupling.md
+      - 03 Ru反铁磁耦合: topics/03-ru-antiferromagnetic-coupling.md
+      - 04 Co/Pt与PMA: topics/04-copt-pma-optimization.md
+      - 05 磁矩与翻转: topics/05-moment-and-reversal.md
+      - 06 模型与判据: topics/06-models-and-criteria.md
+  - 文献索引: library/index.md
+  - 公式审核: formulas.md
+  - 公开政策: publication-policy.md
+validation:
+  links:
+    not_found: warn
+    anchors: warn

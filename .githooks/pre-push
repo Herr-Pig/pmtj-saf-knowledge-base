@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+head=$(git rev-parse HEAD)
+if python tools/publication_audit.py --scaffold-only --expected-commit "$head" --remote-url "$2"; then
+  exit 0
+fi
+python tools/publication_audit.py --release --expected-commit "$head" --remote-url "$2"
