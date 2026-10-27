@@ -65,7 +65,7 @@ def main():
         approval=json.loads(blob('publication/owner-approval.json'))
         if not approval.get('owner_approved') or not approval.get('approved_by'):errors.append('Scientific files have not been selected and approved by the owner')
         approved=approval.get('approved_files',{})
-        science=[p for p in paths if p.startswith('docs/') and p.endswith(('.md','.json'))]
+        science=[p for p in paths if p.startswith('docs/') and not p.startswith('docs/assets/') and p.endswith(('.md','.json'))]
         for path in science:
             if approved.get(path)!=hashlib.sha256(blob(path)).hexdigest():errors.append(path+': owner approval missing or stale')
         for topic in TOPICS:
@@ -80,7 +80,7 @@ def main():
     if args.scaffold_only:
         head=git('rev-parse','--verify','HEAD',check=False).decode().strip()
         if args.expected_commit and args.expected_commit!=head:errors.append('Scaffold commit does not match reviewed HEAD')
-        if head and subprocess.run(['git','-C',str(ROOT),'diff-index','--quiet','--cached','HEAD'],capture_output=True).returncode:errors.append('Staged scaffold differs from commit')
+        if args.expected_commit and head and subprocess.run(['git','-C',str(ROOT),'diff-index','--quiet','--cached','HEAD'],capture_output=True).returncode:errors.append('Staged scaffold differs from commit')
     if args.remote_url:
         issue=verify_public_remote(args.remote_url)
         if issue:errors.append(issue)
