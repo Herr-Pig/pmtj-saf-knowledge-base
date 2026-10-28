@@ -1,6 +1,6 @@
 # 04｜Co/Pt厚度、重复次数和PMA优化
 
-阅读：[SRC-000004](../library/records/SRC-000004.md) → [SRC-000026](../library/records/SRC-000026.md) → [SRC-000025](../library/records/SRC-000025.md)；重复次数结合[SRC-000001](../library/records/SRC-000001.md)、[SRC-000019](../library/records/SRC-000019.md)，界面磁矩参考[SRC-000009](../library/records/SRC-000009.md)。
+阅读：[Chatterjee et al., 2021 · SRC-000004](../library/records/SRC-000004.md) → [Shepley et al., 2015 · SRC-000026](../library/records/SRC-000026.md) → [Ogrodnik et al., 2021 · SRC-000025](../library/records/SRC-000025.md)；重复次数结合[Chatterjee et al., 2018 · SRC-000001](../library/records/SRC-000001.md)、[Muehlenhoff et al., 2021 · SRC-000019](../library/records/SRC-000019.md)，界面磁矩参考[Darwin, 2023 · SRC-000009](../library/records/SRC-000009.md)。
 
 ## 1. Co厚度趋势为什么不能脱离结构
 
@@ -30,9 +30,9 @@ Darwin2023 §5.8、Figs.5.14–5.15采用Co/CoB厚度系列研究不同NM界面�
 
 ## 5. 覆盖缺口
 
-普通Co/Pt在统一工艺下同时扫描Co、Pt和重复数的原始全文仍需扩展。已定位硕士论文[SRC-000018](../library/records/SRC-000018.md)的相关章节及2014论文[SRC-000006](../library/records/SRC-000006.md)，但未取正文，本页不引用它们的最佳厚度或图级结果。
+普通Co/Pt在统一工艺下同时扫描Co、Pt和重复数的原始全文仍需扩展。已定位硕士论文[曾嘉裕 / Tseng, 2011 · SRC-000018](../library/records/SRC-000018.md)的相关章节及2014论文[Lee et al., 2014 · SRC-000006](../library/records/SRC-000006.md)，但未取正文，本页不引用它们的最佳厚度或图级结果。
 
-第二阶段补读的[SRC-000013](../library/records/SRC-000013.md)提供普通Co/Pt在Ta/Ru与Ta/CuN缓冲、重复4/6次及330°C退火的VSM对照（pp.4–6 Fig.2、Table1）。它补充缓冲/重复数证据，未完成Co/Pt厚度二维扫描；PMA与织构解释也不能由方正度或Hc单独定量证明。其单磁块对照和6/4 SAF为不同样品组，不能合并。当前无需为补齐目录而先追完006/018，优先级已降为辅助补充。
+第二阶段补读的[Aköz et al., 2026 · SRC-000013](../library/records/SRC-000013.md)提供普通Co/Pt在Ta/Ru与Ta/CuN缓冲、重复4/6次及330°C退火的VSM对照（pp.4–6 Fig.2、Table1）。它补充缓冲/重复数证据，未完成Co/Pt厚度二维扫描；PMA与织构解释也不能由方正度或Hc单独定量证明。其单磁块对照和6/4 SAF为不同样品组，不能合并。当前无需为补齐目录而先追完006/018，优先级已降为辅助补充。
 
 相关专题：[Ru耦合](03-ru-antiferromagnetic-coupling.md) · [磁矩读出](05-moment-and-reversal.md)。
 
