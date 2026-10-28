@@ -1,6 +1,6 @@
 # 02｜CoFeB/W/CoPt的铁磁耦合及W厚度效应
 
-优先阅读：[SRC-000004](../library/records/SRC-000004.md) SI Fig.S2 → [SRC-000002](../library/records/SRC-000002.md) Fig.1 → [SRC-000001](../library/records/SRC-000001.md) Figs.2–3。本专题聚焦公开文献证据，不对特定实验样品作诊断。
+优先阅读：[Chatterjee et al., 2021 · SRC-000004](../library/records/SRC-000004.md) SI Fig.S2 → [Wang et al., 2018 · SRC-000002](../library/records/SRC-000002.md) Fig.1 → [Chatterjee et al., 2018 · SRC-000001](../library/records/SRC-000001.md) Figs.2–3。本专题聚焦公开文献证据，不对特定实验样品作诊断。
 
 ## 1. 同为W，不能混成一种耦合曲线
 
