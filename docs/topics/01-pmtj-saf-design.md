@@ -1,6 +1,12 @@
 # 01｜PMTJ-SAF整体结构设计与优化
 
-阅读范围：公开研究。以下不涉及用户样品。推荐顺序：[SRC-000002](../library/records/SRC-000002.md) → [SRC-000011](../library/records/SRC-000011.md) → [SRC-000001](../library/records/SRC-000001.md) → [SRC-000004](../library/records/SRC-000004.md) → [SRC-000003](../library/records/SRC-000003.md)。
+阅读范围：公开研究。以下不涉及用户样品。推荐顺序：[Wang et al., 2018 · SRC-000002](../library/records/SRC-000002.md) → [Devolder et al., 2016 · SRC-000011](../library/records/SRC-000011.md) → [Chatterjee et al., 2018 · SRC-000001](../library/records/SRC-000001.md) → [Chatterjee et al., 2021 · SRC-000004](../library/records/SRC-000004.md) → [Cuchet et al., 2016 · SRC-000003](../library/records/SRC-000003.md)。
+
+## 图1｜PMTJ参考系统中三类磁性连接的概念示意
+
+![原创概念示意图：MgO隧穿界面、W桥接层与Ru反铁磁耦合间隔层分别承担不同功能。](../assets/figures/pmtj-saf-concept.svg)
+
+<small>图示为本库原创的概念示意，不代表某一篇论文的完整实际膜堆，也不按比例绘制。各论文的具体层序与厚度请以对应文献记录及原文图注为准。</small>
 
 ## 1. 首先区分三种结构任务
 
@@ -34,3 +40,8 @@ SRC-000011 Fig.1的回线变化较小，FMR模却显示参数显著演化；SRC-
 相关专题：[W桥与spacer](02-w-ferromagnetic-coupling.md) · [Ru耦合](03-ru-antiferromagnetic-coupling.md) · [磁矩与翻转](05-moment-and-reversal.md)。
 
 [专题入口](../index.md) · [缺失材料](../gaps/missing-materials.md) · [未解决证据](../gaps/unresolved-evidence.md)
+
+
+## 参考文献格式
+
+文中链接已改为“第一作者姓氏 et al., 年份 · 资料编号”的作者—年份形式；资料编号仅用于回到本库的证据记录。完整书目信息见[参考文献表](../references.md)。
