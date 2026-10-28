@@ -1,14 +1,14 @@
 # 02｜CoFeB/W/CoPt的铁磁耦合及W厚度效应
 
-优先阅读：[Chatterjee et al., 2021 · SRC-000004](../library/records/SRC-000004.md) SI Fig.S2 → [Wang et al., 2018 · SRC-000002](../library/records/SRC-000002.md) Fig.1 → [Chatterjee et al., 2018 · SRC-000001](../library/records/SRC-000001.md) Figs.2–3。本专题聚焦公开文献证据，不对特定实验样品作诊断。
+优先阅读：[Chatterjee et al., 2021 · Chatterjee et al., 2021 · SRC-000004](../library/records/SRC-000004.md) SI Fig.S2 → [Wang et al., 2018 · Wang et al., 2018 · SRC-000002](../library/records/SRC-000002.md) Fig.1 → [Chatterjee et al., 2018 · Chatterjee et al., 2018 · SRC-000001](../library/records/SRC-000001.md) Figs.2–3。本专题聚焦公开文献证据，不对特定实验样品作诊断。
 
 ## 1. 同为W，不能混成一种耦合曲线
 
 | W的位置 | 核对来源 | 相邻材料与功能 | 本轮可作何种判断 |
 |---|---|---|---|
-| 顶参考层纹理打断/桥接 | ACS2021，SRC-000004 SI S2 | FeCoB/W/[Co/Ta/Pt]3及其上方Ru-SAF | 直接相关的参考层厚度与翻转证据，但插Ta多层须明示 |
-| 自由层间隔 | Wang2018，SRC-000002 Fig.1c | CoFeB/W/CoFeB | minor loop支持0.2nm自由层同步，非CoFeB/W/CoPt定量证据 |
-| 多功能AF间隔层之一 | Chatterjee2018，SRC-000001 Fig.2、SI S1 | Co/Pt/Ru/W/FeCoB | Ru与W共同控制AF耦合，不能当W单独FM桥 |
+| 顶参考层纹理打断/桥接 | ACS2021，Chatterjee et al., 2021 · SRC-000004 SI S2 | FeCoB/W/[Co/Ta/Pt]3及其上方Ru-SAF | 直接相关的参考层厚度与翻转证据，但插Ta多层须明示 |
+| 自由层间隔 | Wang2018，Wang et al., 2018 · SRC-000002 Fig.1c | CoFeB/W/CoFeB | minor loop支持0.2nm自由层同步，非CoFeB/W/CoPt定量证据 |
+| 多功能AF间隔层之一 | Chatterjee2018，Chatterjee et al., 2018 · SRC-000001 Fig.2、SI S1 | Co/Pt/Ru/W/FeCoB | Ru与W共同控制AF耦合，不能当W单独FM桥 |
 
 这是本专题最重要的文献分组。一个数值处于0.2–0.6nm范围，并不使这些体系可直接比较。
 
