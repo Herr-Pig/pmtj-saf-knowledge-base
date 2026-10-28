@@ -1,8 +1,10 @@
 # PMTJ-SAF公开研究资料统一索引
 
+正文引用优先使用作者—年份格式；`SRC-xxxxxx` 是本库内部证据编号，不应替代正式书目著录。完整书目信息见[参考文献表](../references.md)。
+
 更新：2026-10-27。23条独立编号资料；附件归属主记录，不作为独立实验重复计数。
 
-[专题入口](../index.md) · [证据协议](../evidence-policy.md) · [结构化目录](catalog.json) · [缺失材料](../gaps/missing-materials.md)
+[专题入口](../index.md) · [规范参考文献表](../references.md) · [证据协议](../evidence-policy.md) · [结构化目录](catalog.json) · [缺失材料](../gaps/missing-materials.md)
 
 “核心”指本轮已读关键原文的优先阅读材料，不表示全文所有论断均被独立验证。未取正文、会议摘要、讲座元数据均单独标状态。
 
