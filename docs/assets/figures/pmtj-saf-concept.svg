@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="470" viewBox="0 0 1120 470" role="img" aria-labelledby="title desc">
+<title id="title">PMTJ-SAF三类磁性连接的概念示意</title><desc id="desc">从底部参考系统到MgO隧穿结与自由层的概念层序。用不同颜色区分W桥、Ru反铁磁间隔和MgO势垒。</desc>
+<rect width="1120" height="470" rx="18" fill="#f7f9fc"/><text x="40" y="48" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#18324a">PMTJ-SAF：不要混淆三种连接功能</text>
+<text x="42" y="79" font-family="Arial,sans-serif" font-size="15" fill="#526579">原创概念示意｜非比例图｜具体层序因论文而异</text>
+<g font-family="Arial,sans-serif" font-size="16" text-anchor="middle">
+<rect x="90" y="354" width="940" height="54" rx="8" fill="#cfd8e3" stroke="#718096"/><text x="560" y="387" fill="#263746" font-weight="700">种子层 / 底电极 / 衬底（依具体器件而定）</text>
+<rect x="160" y="300" width="800" height="42" rx="7" fill="#d8b4fe" stroke="#8b5cf6"/><text x="560" y="326" fill="#3b0764" font-weight="700">底部磁性层或自由层（示意）</text>
+<rect x="160" y="244" width="800" height="42" rx="7" fill="#b6e3f4" stroke="#168aad"/><text x="560" y="270" fill="#073b4c" font-weight="700">MgO 隧穿势垒</text>
+<rect x="160" y="188" width="800" height="42" rx="7" fill="#d8b4fe" stroke="#8b5cf6"/><text x="560" y="214" fill="#3b0764" font-weight="700">CoFeB / MgO 邻接磁层（示意）</text>
+<rect x="160" y="132" width="800" height="42" rx="7" fill="#fde68a" stroke="#ca8a04"/><text x="560" y="158" fill="#713f12" font-weight="700">W 桥接层：特定结构中可影响相邻磁层同步性</text>
+<rect x="160" y="76" width="800" height="42" rx="7" fill="#fecaca" stroke="#dc2626"/><text x="560" y="102" fill="#7f1d1d" font-weight="700">Ru 间隔层：常用于两磁性块间的 RKKY / AF 耦合</text>
+</g>
+<path d="M78 97 L78 328" stroke="#64748b" stroke-width="2" stroke-dasharray="5 6"/><text x="45" y="223" transform="rotate(-90 45 223)" font-family="Arial,sans-serif" font-size="13" fill="#526579" text-anchor="middle">功能定位示意</text>
+<text x="560" y="445" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#526579">不要将 MgO 势垒、W 桥接与 Ru 反铁磁间隔层视为可互换的层。</text>
+</svg>
