@@ -1,6 +1,6 @@
 # 02｜CoFeB/W/CoPt的铁磁耦合及W厚度效应
 
-优先阅读：[SRC-000004](../library/records/SRC-000004.md) SI Fig.S2 → [SRC-000002](../library/records/SRC-000002.md) Fig.1 → [SRC-000001](../library/records/SRC-000001.md) Figs.2–3。本页不分析任何用户MOKE文件。
+优先阅读：[SRC-000004](../library/records/SRC-000004.md) SI Fig.S2 → [SRC-000002](../library/records/SRC-000002.md) Fig.1 → [SRC-000001](../library/records/SRC-000001.md) Figs.2–3。本专题聚焦公开文献证据，不对特定实验样品作诊断。
 
 ## 1. 同为W，不能混成一种耦合曲线
 
@@ -26,7 +26,7 @@ Wang2018 pp.2–3展示blank-film OOP/IP与minor loop；其自由层结论由磁
 
 Chatterjee2018的Ru/W体系则出现另一种权衡：W减薄可增大AF耦合，却可能不足以完成纹理打断；移除W时FeCoB翻转倾斜（正文p.3及SI S2）。作者对界面混合、织构等机制的讨论应保留“解释”身份，不能由该现象反向断言任何倾斜MOKE都源于W耦合差。
 
-本库综合判断：对W桥有效性的比较应同时查看minor loop、各层磁矩/PMA、厚度对照及结构表征；“存在两个台阶”“TMR下降”均不足以单独量化J_W。此判断是对证据链的要求，不是用户样品诊断。
+本库综合判断：对W桥有效性的比较应同时查看minor loop、各层磁矩/PMA、厚度对照及结构表征；“存在两个台阶”“TMR下降”均不足以单独量化J_W。此判断是对证据链的要求，不构成对任何特定样品的诊断。
 
 ## 4. 尚缺什么
 
