@@ -13,6 +13,8 @@
 
 ## 从证据开始阅读
 
+书目引用采用作者—年份形式；每条记录另保留唯一的 `SRC-xxxxxx` 内部编号，以便追踪原文页码、图号、SI与阅读状态。
+
 [统一文献索引](library/index.md)记录资料状态及证据等级；每条记录保留已核对的原文定位、作者结论与适用限制。[证据分级规则](evidence-policy.md)说明实验观察、文献结论、模型假设和本库推断的区分。[公式定位](formulas.md)连接公式上下文，使用时须核对各文献的单位、符号与磁层定义。
 
 尚未解决的事项保留在[待补充资料](gaps/missing-materials.md)、[待核实文献](gaps/unverified-sources.md)及[未解决证据问题](gaps/unresolved-evidence.md)中。所有者批准公开不等于消除这些科学限制。
