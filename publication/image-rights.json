@@ -1,5 +1,22 @@
 {
   "schema_version": 1,
-  "research_images": [],
-  "policy": "No research image is approved. Require source, figure/page, license evidence, attribution and owner selection."
+  "research_images": [
+    {
+      "path": "docs/assets/figures/pmtj-saf-concept.svg",
+      "source": "Original conceptual illustration created for this draft; not copied from a paper",
+      "figure_page": "N/A — original diagram",
+      "license_evidence_url": "",
+      "attribution": "PMTJ-SAF Knowledge Base, original schematic",
+      "owner_approved": false
+    },
+    {
+      "path": "docs/assets/figures/reversal-event-fields.svg",
+      "source": "Original conceptual illustration created for this draft; not copied from a paper",
+      "figure_page": "N/A — original diagram",
+      "license_evidence_url": "",
+      "attribution": "PMTJ-SAF Knowledge Base, original schematic",
+      "owner_approved": false
+    }
+  ],
+  "policy": "Original diagrams are draft assets until owner approval. Third-party research figures require source-specific license/permission evidence and attribution."
 }
