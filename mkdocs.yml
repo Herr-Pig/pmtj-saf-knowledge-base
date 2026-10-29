@@ -52,6 +52,7 @@ nav:
   - 公式定位: formulas.md
   - 证据等级: evidence-policy.md
   - 资料缺口:
+      - 原图与引用核验: gaps/figure-and-citation-gaps.md
       - 待补充资料: gaps/missing-materials.md
       - 待核实文献: gaps/unverified-sources.md
       - 未解决证据: gaps/unresolved-evidence.md
