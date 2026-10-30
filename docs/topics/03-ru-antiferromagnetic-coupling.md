@@ -81,3 +81,18 @@ $$
 
 
 [完整参考文献](../references.md) · [原图来源与核验事项](../gaps/figure-and-citation-gaps.md)
+
+
+## W记录层与厚度模型的原文证据补充
+
+[Mouhoub et al. (2023)](../library/records/SRC-000036.md)的作者稿固定Ru0.7nm而改变沉积态CoFeB单层5–40nm，是面内VSM/VNA-FMR与厚度方向模型的对照，不是Co/Pt-Ru厚度扫描。其Table I分开总耦合Jtot与orange-peel修正后的Jex；与[Yang and Lai (2021)](../library/records/SRC-000033.md)的Ru/Re loop-shift提取量比较时，应先核场定义、磁层均匀性及粗糙度假设。
+
+[Karayev et al. (2019)](../library/records/SRC-000035.md)已核实出版身份，但有效全文未取得；不以搜索片段中的峰值、图注或回线交叉说明关闭Ru厚度缺口。012、029的原文及013内部差异仍需独立收敛。
+
+## Ru厚度相区不能跨层序直接拼接
+
+本轮补读[Karayev et al. (2019)](../library/records/SRC-000035.md)的官方CHORUS正文：其[Pt/Co/Ru]N让Co之间还夹Pt，反常Hall回线及minor loops显示Ru依赖、多级翻转和局部回线交叉。它既不同于[Li et al. (2018)](../library/records/SRC-000005.md)两磁块，也不同于[Aköz et al. (2026)](../library/records/SRC-000013.md)6/4结构。Hall平台中的层数归属是作者结合堆结构作的解释，不等于深度分辨磁成像。
+
+尤其需要把三种场分开：Karayev的饱和场Hs用于半定量J估算；其minor-loop位移给独立相关的耦合标志；013的Hex取主回线事件半差。回线交叉作者关联DMI与IEC竞争，但仍要求进一步模型研究，不能直接宣称已证明skyrmion或套成两块SAF的第三步翻转。
+
+Ru的通用“最佳厚度”仍无依据。001的0.4/0.45nm冲突已限定为SI纯Ru对照；013对0.60/0.80nm的冲突及μ0口径仍在。012仍未取得原文，不能用新超晶格结果替它补全或关闭缺口。

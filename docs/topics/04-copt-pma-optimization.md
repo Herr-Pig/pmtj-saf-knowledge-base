@@ -79,3 +79,31 @@
 
 
 [完整参考文献](../references.md) · [原图来源与核验事项](../gaps/figure-and-citation-gaps.md)
+
+
+## W记录层与厚度模型的原文证据补充
+
+新读的[Kim et al. (2015)](../library/records/SRC-000034.md)通过CoFeB/W界面、有效磁性厚度和退火讨论PMA；[He et al. (2018)](../library/records/SRC-000038.md)还用ST-FMR提取有效各向异性。这些邻近体系补充测量和解释边界，不能代替普通Co/Pt中Co、Pt和重复数的控制实验；共同翻转、Hc增大和Keff增大也不是同一个目标量。
+
+真正针对普通Co/Pt的[Wang et al. (2011)](../library/records/SRC-000037.md)与[Emori and Beach (2011)](../library/records/SRC-000039.md)已列为补读项。前者机构页明确有勘误DOI 10.1063/1.3664911，正文和勘误均未取；后者作者站PDF连接失败。现阶段不从摘要填最佳Co/Pt厚度或宣称某buffer更优。补读时将Pt底层、重复内Pt、封盖及buffer的变量分别列出。
+
+## 退火与界面机制：保留相反趋势的条件
+
+[Das et al. (2014)](../library/records/SRC-000043.md)在Si/Ta4/[Pt1.2/Co(t)]3/Pt2、350°C/1h条件下测到PMA增强，并以EDX/HAADF和XRR支持界面化学锐化。作者用uphill diffusion解释，不能由此宣布所有Co/Pt热处理都会增强PMA；其直接定量EDX重点为Co/Pt各1.2nm，超薄样品的谱学可靠性更有限。
+
+[Chi et al. (2024)](../library/records/SRC-000042.md)的W3/Co(t)/Pt1/Ru1未做退火对照，所测磁易轴仍为面内。它显示去除退磁项后的MCA随有效厚度变化，与总Keff是否为正是不同问题；BLS的DMI及XMCD的OMA在超薄区也不共同比例变化。故“界面更强→PMA更强→FM桥更强”缺少逐步独立证据。
+
+与[Chatterjee et al. (2021)](../library/records/SRC-000004.md)比较时，要保留Co/Ta/Pt插层、重复数、厚度/体积归一化；与[Yang and Lai (2021)](../library/records/SRC-000033.md)比较时要保留Ru/Re界面、退火温度和独立XRR样品。相反趋势可由不同条件并存解释，但不是已经找到一套可消除所有分歧的统一机制。
+
+Das SI p.6的Ks数值/百分比存在内部矛盾，本库不修造；[Wang et al. (2011)](../library/records/SRC-000037.md)的正文和勘误仍未读，暂不纳入最佳厚度排名。
+
+
+!!! note "本阶段论文原图候选｜Das et al. (2014)，Fig. 1"
+
+    [![Das et al. (2014) Fig. 1：Co/Pt退火前后M–H及厚度/结构信息](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fsrep05328/MediaObjects/41598_2014_Article_BFsrep05328_Fig1_HTML.jpg){ loading=lazy }](https://www.nature.com/articles/srep05328/figures/1)
+
+    **出处与图意：** [Das et al. (2014)](../library/records/SRC-000043.md)，*Anomalous enhancement in interfacial perpendicular magnetic anisotropy through uphill diffusion*，Fig. 1，PDF p.2。[官方原图/图注](https://www.nature.com/articles/srep05328/figures/1)。Co/Pt退火前后M–H及厚度/结构信息。
+
+    **证据边界：** 350°C/1h特定三重复组，非一般退火规律。作者解释与本库比较见文献卡；原图面板、实测点和模型线分别理解。
+
+    **许可：** Das et al. (2014)，CC BY-NC-ND 4.0，见[原文许可](https://www.nature.com/articles/srep05328#rightslink)。原图保持完整，不裁剪或翻译图内文字；非商业/不得改编条件按该来源保留。此为待批候选，未代填所有者批准。

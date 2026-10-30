@@ -63,3 +63,29 @@
 
 
 [完整参考文献](../references.md) · [原图来源与核验事项](../gaps/figure-and-citation-gaps.md)
+
+
+## W记录层与厚度模型的原文证据补充
+
+[He et al. (2018)](../library/records/SRC-000038.md)明确区分两类ST-FMR双峰：PMA体系的低/高场分支，以及弱耦合双CoFeB的声/光模。Fig.6的面内MOKE和共振模式互相约束，但“两个峰”本身不能替代独立的磁层翻转归属。其图内高清像素仍待核，已读正文和图注的范围在记录中明确列出。
+
+[Mouhoub et al. (2023)](../library/records/SRC-000036.md)Fig.2的圆滑VSM回线与Fig.4厚度分辨微磁模型说明，斜坡还可受厚度方向扭转影响；Fig.4的85/47mT是模拟中饱和场/交换场的区别，不是两组实验值。此证据不能证明所有MOKE斜坡均来自该机制，却足以要求先区分测量类型、模型场定义和光学权重，再由平台或峰反推磁矩。
+
+## 完整堆、平台归属和原文标签的分层核查
+
+[Lee et al. (2016)](../library/records/SRC-000041.md)Fig.2确实测完整pMTJ堆，作者将VSM步骤分配给自由层、W桥复合块及另一SAF块；该归属有层序依据，却仍不是逐层直接观测。不能把其µemu平台值直接移植成MOKE平台比，也不能以TMR的两电阻态断言全部磁块只有两步翻转。
+
+本轮对[Wang et al. (2018)](../library/records/SRC-000002.md)直接查看SI嵌入原图，已确认179%箭头和Hc面板均标Stack A；图注/正文的B称谓冲突单列保留。因此“原图标了什么”已经收敛，“实际器件究竟采用哪套A/B”仍未收敛。主文410°C薄膜、390°C器件和SI的390°C/t=1.2nm回线不再借模糊编号合并。
+
+[Karayev et al. (2019)](../library/records/SRC-000035.md)的多层Hall阶梯和[Mouhoub et al. (2023)](../library/records/SRC-000036.md)的厚度方向扭转分别是两种额外复杂性；与001/003的两块净矩额外翻转、以及He的两类FMR双峰分开。模型归属、实测曲线和本库对照结论在每条卡片中分别标识。
+
+
+!!! note "本阶段论文原图候选｜Lee et al. (2016)，Fig. 2"
+
+    [![Lee et al. (2016) Fig. 2：400°C后完整pMTJ主回线和minor-loop](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fam.2016.162/MediaObjects/41427_2016_Article_BFam2016162_Fig2_HTML.jpg){ loading=lazy }](https://www.nature.com/articles/am2016162/figures/2)
+
+    **出处与图意：** [Lee et al. (2016)](../library/records/SRC-000041.md)，*Perpendicular magnetic tunnel junction (p-MTJ) spin-valves designed with a top Co2Fe6B2 free layer and a nanoscale-thick tungsten bridging and capping layer*，Fig. 2，PDF p.2。[官方原图/图注](https://www.nature.com/articles/am2016162/figures/2)。400°C后完整pMTJ主回线和minor-loop。
+
+    **证据边界：** 作者层归属非层分辨实验；不是同一样品退火前后对照。作者解释与本库比较见文献卡；原图面板、实测点和模型线分别理解。
+
+    **许可：** Lee et al. (2016)，CC BY 4.0，见[原文许可](https://www.nature.com/articles/am2016162#rightslink)。原图保持完整，不裁剪或翻译图内文字；非商业/不得改编条件按该来源保留。此为待批候选，未代填所有者批准。
