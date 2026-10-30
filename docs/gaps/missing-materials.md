@@ -50,3 +50,8 @@ P0身份核验先执行，本轮013已关闭；P1是影响核心可比性/结论
 013的作者、DOI、期刊名称、全文和结构图定位缺口已关闭；新增原文内部差异，详见[未解决证据](unresolved-evidence.md)。012及普通CoFeB/W/CoPt直接桥接厚度证据仍未补齐，本轮不以二手摘要或自由层W结果替代。其余辅助/背景资料暂缓，避免扩大检索范围。具体获取记录见第二阶段日志（内部记录不公开）。
 
 W桥接的下一条高优先级原文线索是[“Thermal stability of SOT-MTJ thin films tuning by multiple interlayer couplings”官方预览](https://www.sciencedirect.com/science/article/pii/S0304885321000998)。本轮只发现预览，尚未核关键全文、作者/DOI与图级证据，不建立已核实SRC或引用其摘要细节；后续应先寻找公开全文。
+
+
+## B20261029更新
+
+原W桥接标题线索现已正式登记为[Yang et al. (2021)](../library/records/SRC-000030.md)，DOI10.1016/j.jmmm.2021.167823及作者已核，身份缺口关闭；完整原文仍缺，旧段落为上一阶段记录。新增[Yun et al. (2016)](../library/records/SRC-000029.md)同为全文优先任务。028/031/032/033的已读范围、SI及图像状态见各卡，不以当前候选身份视为已公开批准。

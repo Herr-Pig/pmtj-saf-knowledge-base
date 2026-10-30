@@ -48,9 +48,11 @@ nav:
       - 05 磁矩与翻转: topics/05-moment-and-reversal.md
       - 06 模型与判据: topics/06-models-and-criteria.md
   - 文献索引: library/index.md
+  - 规范参考文献表: references.md
   - 公式定位: formulas.md
   - 证据等级: evidence-policy.md
   - 资料缺口:
+      - 原图与引用核验: gaps/figure-and-citation-gaps.md
       - 待补充资料: gaps/missing-materials.md
       - 待核实文献: gaps/unverified-sources.md
       - 未解决证据: gaps/unresolved-evidence.md
