@@ -75,3 +75,36 @@ SI S1另研究五重复SL-MLs，给出的W限制与S2不同。两页的多层次
 
 
 [完整参考文献](../references.md) · [原图来源与核验事项](../gaps/figure-and-citation-gaps.md)
+
+
+## W记录层与厚度模型的原文证据补充
+
+[Kim et al. (2015)](../library/records/SRC-000034.md)在双MgO/CoFeB/W/CoFeB框架中研究W0.10–2.70nm，350°C的Fig.4和SI S1显示FM到AF特征的变化；作者同时说明第二振荡峰未见、RKKY主导起源未定。其0.55nm热稳定窗口受磁层、双MgO与1h/面外场退火约束，不据此替换[Chatterjee et al. (2021)](../library/records/SRC-000004.md)的Co/Ta/Pt参考侧W窗口。
+
+[He et al. (2018)](../library/records/SRC-000038.md)作者稿Eq.(5)、Fig.6（CHORUS PDF p.21）联合动态模式和面内MOKE，报告特定W0.6nm系列从沉积态AF到退火后FM；其单侧MgO、0.5h无场退火和CoFeB厚度均与Kim系列不同。界面互扩散导致有效W厚度变化是作者解释，不写成每个厚度均直接证明的机制。普通无Ta-CoFeB/W/CoPt桥接的独立厚度/交换系列仍缺。
+
+## 无Ta桥接的新直接证据与尚未关闭的缺口
+
+[Lee et al. (2016)](../library/records/SRC-000041.md)给出了完整Co/Pt-Ru固定系统/W/CoFeB/MgO堆、W桥厚度扫描和完整M–H。图1b/SI示意将桥下终止层画为Co，桥两侧没有Ta；正文上块重复记法、未提供的Co/Pt厚度仍逐项保留。SI Supplementary 2的0.24nm峰是**CIPT TMR峰**，不是J峰；不能由TMR从峰顶下降唯一判定FM失耦。
+
+三组证据的分工现在更明确：Lee的完整结输运/磁性说明这个桥接路线确实被制造；[He et al. (2018)](../library/records/SRC-000038.md)用动态模+MOKE约束相邻CoFeB/W/CoFeB的耦合符号；[Chi et al. (2024)](../library/records/SRC-000042.md)用单磁层W/Co/Pt约束MCA、死层和谱学，但没有两磁层IEC。三者各补一个环节，不能拼成已经测得CoFeB/W/CoPt的完整J(tW,Tanneal)。
+
+| 机制 | 可定位的证据 | 仍不能独立证明 |
+|---|---|---|
+| 对称层间交换 | He声/光模场差与MOKE；Lee复合块翻转 | 定义/模型依赖；同步回线不独立给出交换常数 |
+| 直接接触/针孔或不连续层 | He对厚度/连续性提出解释 | 名义0.2nm不是已证连续W单层，不能仅凭同步宣称RKKY |
+| 磁静力/粗糙度耦合 | [Mouhoub et al. (2023)](../library/records/SRC-000036.md)分Jtot/Jex与粗糙度插值 | 埋藏界面估计和周期模型不是直接测量，且面内厚层不能定量迁移 |
+| 界面各向异性与DMI | Chi的VSM/BLS/XMCD | DMI非两磁块FM桥的同义词；MCA增加也不等于总Keff转正 |
+
+尚缺同一无Ta桥系列中独立J、minor-loop、PMA、磁矩校准及结构连续性的联合测量。本库据此提出的“联合约束”是后续文献筛选判据，不是已经完成的新实验。
+
+
+!!! note "本阶段论文原图候选｜Kim et al. (2015)，Fig. 4"
+
+    [![Kim et al. (2015) Fig. 4：W厚度系列M–H与Hk/Hex分列](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fsrep16903/MediaObjects/41598_2015_Article_BFsrep16903_Fig4_HTML.jpg){ loading=lazy }](https://www.nature.com/articles/srep16903/figures/4)
+
+    **出处与图意：** [Kim et al. (2015)](../library/records/SRC-000034.md)，*Ultrathin W space layer-enabled thermal stability enhancement in a perpendicular MgO/CoFeB/W/CoFeB/MgO recording frame*，Fig. 4，PDF p.4。[官方原图/图注](https://www.nature.com/articles/srep16903/figures/4)。W厚度系列M–H与Hk/Hex分列。
+
+    **证据边界：** 双CoFeB记录层，不是Co/Pt参考桥；RKKY起源未定。作者解释与本库比较见文献卡；原图面板、实测点和模型线分别理解。
+
+    **许可：** Kim et al. (2015)，CC BY 4.0，见[原文许可](https://www.nature.com/articles/srep16903#rightslink)。保留作者署名、来源和许可链接；本库选择展示完整原图，不裁剪或翻译图内文字。CC BY 4.0不附加非商业或禁止改编限制。最终发布批准按文件版本记录。

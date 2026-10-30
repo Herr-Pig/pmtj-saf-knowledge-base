@@ -61,3 +61,33 @@
 
 
 [完整参考文献](../references.md) · [原图来源与核验事项](../gaps/figure-and-citation-gaps.md)
+
+
+## W记录层与厚度模型的原文证据补充
+
+[Kim et al. (2015)](../library/records/SRC-000034.md)的Fig.5（PDF p.6）用薄膜Keff和有效厚度外推纳米圆柱Δ，并非20nm器件保持时间实测；本库将这类计算与[Wang et al. (2018)](../library/records/SRC-000002.md)的真实器件写入分列。先确认薄膜PMA、再计算能垒、最后验证完整MTJ是不同证据环节，不能由其中一项宣布所有环节已完成。
+
+[He et al. (2018)](../library/records/SRC-000038.md)的W/CoFeB/W/CoFeB/MgO没有Co/Pt参考桥或Ru间隔；其声/光模及MOKE对照增加了邻近双CoFeB系统的判读手段，不能直接赋予PMTJ-SAF参考系统相同层间交换常数。与[Chatterjee et al. (2017)](../library/records/SRC-000028.md)的封盖半结相比，先核W所在界面和完整器件条件，再讨论耐退火。
+
+## 结构实例与证据对象的横向比较
+
+| 文献 | 参考系统与MgO顺序 | Ru/W与退火 | TMR、RA和磁性证据 | 不足 |
+|---|---|---|---|---|
+| [Wang et al. (2018)](../library/records/SRC-000002.md) | Co/Pt-Ru-Co/Pt/W/CoFeB/MgO/双CoFeB自由层；bottom-pinned | Ru0.8、参考W0.25、自由W0.2nm；350–430°C/1h | 完整堆VSM、器件输运与STT；图/Note分别定位 | A/B对应仍冲突，不能将SI179%作为已确认的图形化器件数值 |
+| [Chatterjee et al. (2021)](../library/records/SRC-000004.md) | 自由FeCoB/MgO/参考FeCoB/W/Co-Ta-Pt/Ru/Co-Pt；真正top-pSAF | Ru0.9、W0.30–0.50nm；SI S2为400°C | 完整顶参考层M–H厚度系列，W失同步有直接相关证据 | 含Ta插层；MgO厚度和本表TMR/RA未核，不填 |
+| [Lee et al. (2016)](../library/records/SRC-000041.md) | Co/Pt-Ru-Co/Pt/W/CoFeB/MgO/Fe-CoFeB自由层；标题top是free | Ru0.85、W桥0.24、W cap4nm；400°C，时长/外场未明确 | 完整堆VSM+HRTEM+SIMS，CIPT TMR约143%；不是图形化保持实测 | 同时改桥和封盖；未独立测J(tW)，Co/Pt单层厚度和RA未核 |
+
+各行的完整已知层序、缺失厚度和图文终止层问题保留在原始文献卡；结构化目录增加这些实例的字段，未知值保持null。不能因标题中都有top便当成同一生长顺序。当前新检索的[Liu et al. (2018) top-pinned SFM](https://doi.org/10.1103/PhysRevApplied.10.054054)尚未取得可读原文，不将其SFM概念自动改名成Co/Pt-Ru top-SAF，也不填图号或完整层厚。
+
+本库推论：评估参考系统，至少分别问“参考层是否被固定”“自由层偏置是否受控”“输运是否保持”和“图形化后是否仍稳定”。完整堆的测量较孤立层更接近器件，却仍不能代替所有界面的独立参数测量。
+
+
+!!! note "本阶段论文原图候选｜Lee et al. (2016)，Fig. 1"
+
+    [![Lee et al. (2016) Fig. 1：完整堆结构及封盖厚度—TMR](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fam.2016.162/MediaObjects/41427_2016_Article_BFam2016162_Fig1_HTML.jpg){ loading=lazy }](https://www.nature.com/articles/am2016162/figures/1)
+
+    **出处与图意：** [Lee et al. (2016)](../library/records/SRC-000041.md)，*Perpendicular magnetic tunnel junction (p-MTJ) spin-valves designed with a top Co2Fe6B2 free layer and a nanoscale-thick tungsten bridging and capping layer*，Fig. 1，PDF p.2。[官方原图/图注](https://www.nature.com/articles/am2016162/figures/1)。完整堆结构及封盖厚度—TMR。
+
+    **证据边界：** top free不是top reference；TMR曲线横轴是cap。作者解释与本库比较见文献卡；原图面板、实测点和模型线分别理解。
+
+    **许可：** Lee et al. (2016)，CC BY 4.0，见[原文许可](https://www.nature.com/articles/am2016162#rightslink)。保留作者署名、来源和许可链接；本库选择展示完整原图，不裁剪或翻译图内文字。CC BY 4.0不附加非商业或禁止改编限制。最终发布批准按文件版本记录。
