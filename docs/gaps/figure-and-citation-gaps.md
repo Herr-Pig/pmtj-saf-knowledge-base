@@ -48,19 +48,19 @@
 
 ## 2026-10-30新增原图证据索引
 
-新增10条去重图证据定位，4幅合法原图嵌入本地候选，其余6条仅官方来源链接。035的两图目前核到正文和图注，高清像素未核，不列为视觉核验通过。本站本批未部署，原七幅批准保持；新图owner字段仍待批。
+新增10条去重图证据定位：8幅图像已核实，其中4幅以官方外链嵌入、4幅仅链接；另外035的2幅仅完成正文与图注核对，高清像素未核，不嵌入、不计入已验证图像。外链嵌入同样遵守逐图许可，原七幅批准保持；本批最终发布批准按文件版本记录。
 
 | 文献/原图 | 版本页码 | 物理含义及边界 | 许可/方式 |
 |---|---|---|---|
-| [Kim et al. (2015) Fig. 4](https://www.nature.com/articles/srep16903/figures/4) | source as linked p.4 | W厚度系列M–H与Hk/Hex分列；双CoFeB记录层，不是Co/Pt参考桥；RKKY起源未定 | CC BY 4.0；official image embed in local candidate |
-| [Karayev et al. (2019) Fig. 3](https://link.aps.org/accepted/10.1103/PhysRevMaterials.3.041401#page=16) | CHORUS accepted manuscript, 17 PDF pages p.16 | Ru楔形超晶格主回线、minor loop和回线交叉；CHORUS正文/图注已读，原图像素待核；不是两磁块MOKE | 转载许可未核；official source link only |
-| [Karayev et al. (2019) Fig. 4](https://link.aps.org/accepted/10.1103/PhysRevMaterials.3.041401#page=17) | CHORUS accepted manuscript, 17 PDF pages p.17 | Ru/Pt/Ir厚度相区及饱和场；Hs半定量J口径不等于单层minor-loop提取 | 转载许可未核；official source link only |
-| [Mouhoub et al. (2023) Fig. 5](https://arxiv.org/pdf/2211.02497v1#page=5) | arXiv v1 p.5 | 模式实测点、模型曲线与厚度分辨本征模；实测符号与模拟曲线分开；不是Co/Pt-Ru厚度扫描 | 转载许可未核；official source link only |
-| [Lee et al. (2016) Fig. 1](https://www.nature.com/articles/am2016162/figures/1) | source as linked p.2 | 完整堆结构及封盖厚度—TMR；top free不是top reference；TMR曲线横轴是cap | CC BY 4.0；official image embed in local candidate |
-| [Lee et al. (2016) Fig. 2](https://www.nature.com/articles/am2016162/figures/2) | source as linked p.2 | 400°C后完整pMTJ主回线和minor-loop；作者层归属非层分辨实验；不是同一样品退火前后对照 | CC BY 4.0；official image embed in local candidate |
-| [Lee et al. (2016) Supplementary 2](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fam.2016.162/MediaObjects/41427_2016_BFam2016162_MOESM3_ESM.pdf) | official single-page supplementary PDF p.1 | W桥厚度—CIPT TMR峰约0.24nm；不是交换能或PMA厚度曲线；不重绘或数字化数据 | CC BY 4.0；official source link only |
-| [Chi et al. (2024) Fig. 2](https://arxiv.org/pdf/2102.01283v3#page=3) | arXiv v3 p.3 | 磁矩/厚度、Keff·teff及线性拟合；总Keff与去退磁项MCA不同；作者稿页码未映射正式版 | 正式版CC BY 4.0；作者稿转载范围未另核；official source link only |
-| [Das et al. (2014) Fig. 1](https://www.nature.com/articles/srep05328/figures/1) | source as linked p.2 | Co/Pt退火前后M–H及厚度/结构信息；350°C/1h特定三重复组，非一般退火规律 | CC BY-NC-ND 4.0；official image embed in local candidate |
-| [Das et al. (2014) Fig. 3](https://www.nature.com/articles/srep05328/figures/3) | source as linked p.4 | EDX及HAADF推定Co/Pt剖面；元素剖面含纯Pt端层/楔形模型；机理仍为作者解释 | CC BY-NC-ND 4.0；official source link only |
+| [Kim et al. (2015) Fig. 4](https://www.nature.com/articles/srep16903/figures/4) | 出版PDF p.4 | W厚度系列M–H与Hk/Hex分列；双CoFeB记录层，不是Co/Pt参考桥；RKKY起源未定 | CC BY 4.0；官方外链完整原图嵌入 |
+| [Karayev et al. (2019) Fig. 3](https://link.aps.org/accepted/10.1103/PhysRevMaterials.3.041401#page=16) | CHORUS accepted manuscript, 17 PDF pages p.16 | Ru楔形超晶格主回线、minor loop和回线交叉；CHORUS正文/图注已读，原图像素待核；不是两磁块MOKE | 转载许可未核；仅官方来源链接；高清像素未核，不作为已验证图片展示 |
+| [Karayev et al. (2019) Fig. 4](https://link.aps.org/accepted/10.1103/PhysRevMaterials.3.041401#page=17) | CHORUS accepted manuscript, 17 PDF pages p.17 | Ru/Pt/Ir厚度相区及饱和场；Hs半定量J口径不等于单层minor-loop提取 | 转载许可未核；仅官方来源链接；高清像素未核，不作为已验证图片展示 |
+| [Mouhoub et al. (2023) Fig. 5](https://arxiv.org/pdf/2211.02497v1#page=5) | arXiv v1 p.5 | 模式实测点、模型曲线与厚度分辨本征模；实测符号与模拟曲线分开；不是Co/Pt-Ru厚度扫描 | 转载许可未核；仅官方来源链接 |
+| [Lee et al. (2016) Fig. 1](https://www.nature.com/articles/am2016162/figures/1) | 出版PDF p.2 | 完整堆结构及封盖厚度—TMR；top free不是top reference；TMR曲线横轴是cap | CC BY 4.0；官方外链完整原图嵌入 |
+| [Lee et al. (2016) Fig. 2](https://www.nature.com/articles/am2016162/figures/2) | 出版PDF p.2 | 400°C后完整pMTJ主回线和minor-loop；作者层归属非层分辨实验；不是同一样品退火前后对照 | CC BY 4.0；官方外链完整原图嵌入 |
+| [Lee et al. (2016) Supplementary 2](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fam.2016.162/MediaObjects/41427_2016_BFam2016162_MOESM3_ESM.pdf) | official single-page supplementary PDF p.1 | W桥厚度—CIPT TMR峰约0.24nm；不是交换能或PMA厚度曲线；不重绘或数字化数据 | CC BY 4.0；仅官方来源链接 |
+| [Chi et al. (2024) Fig. 2](https://arxiv.org/pdf/2102.01283v3#page=3) | arXiv v3 p.3 | 磁矩/厚度、Keff·teff及线性拟合；总Keff与去退磁项MCA不同；作者稿页码未映射正式版 | 正式版CC BY 4.0；作者稿转载范围未另核；仅官方来源链接 |
+| [Das et al. (2014) Fig. 1](https://www.nature.com/articles/srep05328/figures/1) | 出版PDF p.2 | Co/Pt退火前后M–H及厚度/结构信息；350°C/1h特定三重复组，非一般退火规律 | CC BY-NC-ND 4.0；官方外链完整原图嵌入 |
+| [Das et al. (2014) Fig. 3](https://www.nature.com/articles/srep05328/figures/3) | 出版PDF p.4 | EDX及HAADF推定Co/Pt剖面；元素剖面含纯Pt端层/楔形模型；机理仍为作者解释 | CC BY-NC-ND 4.0；仅官方来源链接 |
 
 不将论文原图称为原创示意图；不新增AI图、论文全文附件、数字化实验数据或未经核实的许可。图库中的模型面板也保留模型身份。

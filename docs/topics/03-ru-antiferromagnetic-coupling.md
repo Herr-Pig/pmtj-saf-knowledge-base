@@ -87,7 +87,7 @@ $$
 
 [Mouhoub et al. (2023)](../library/records/SRC-000036.md)的作者稿固定Ru0.7nm而改变沉积态CoFeB单层5–40nm，是面内VSM/VNA-FMR与厚度方向模型的对照，不是Co/Pt-Ru厚度扫描。其Table I分开总耦合Jtot与orange-peel修正后的Jex；与[Yang and Lai (2021)](../library/records/SRC-000033.md)的Ru/Re loop-shift提取量比较时，应先核场定义、磁层均匀性及粗糙度假设。
 
-[Karayev et al. (2019)](../library/records/SRC-000035.md)已核实出版身份，但有效全文未取得；不以搜索片段中的峰值、图注或回线交叉说明关闭Ru厚度缺口。012、029的原文及013内部差异仍需独立收敛。
+[Karayev et al. (2019)](../library/records/SRC-000035.md)已补读CHORUS正文与图注，高清图像像素仍待核；不以未完成的图像核验关闭Ru厚度缺口。012、029的原文及013内部差异仍需独立收敛。
 
 ## Ru厚度相区不能跨层序直接拼接
 

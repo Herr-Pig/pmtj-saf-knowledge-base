@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "published_29_plus_10_unapproved_expansion_candidates",
+  "status": "published_29_plus_10_B20261030_candidate_records",
   "records": [
     {
       "id": "SRC-000001",
@@ -19,7 +19,7 @@
       ],
       "unresolved": [],
       "evidence": "Publisher citation meta tags, full article and published PDF",
-      "preserved_reading_status": "关键证据已核对"
+      "preserved_reading_status": "正文/作者稿关键证据已读；关键证据已核对"
     },
     {
       "id": "SRC-000002",
@@ -38,7 +38,7 @@
       ],
       "unresolved": [],
       "evidence": "Publisher citation meta tags, full article and published PDF",
-      "preserved_reading_status": "关键证据已核对"
+      "preserved_reading_status": "正文/作者稿关键证据已读；关键证据已核对"
     },
     {
       "id": "SRC-000003",
@@ -57,7 +57,7 @@
       ],
       "unresolved": [],
       "evidence": "Publisher citation meta tags, full article and published PDF",
-      "preserved_reading_status": "关键证据已核对"
+      "preserved_reading_status": "正文/作者稿关键证据已读；关键证据已核对"
     },
     {
       "id": "SRC-000004",
@@ -70,7 +70,7 @@
       ],
       "unresolved": [],
       "evidence": "ACS publisher entry and publisher-hosted Figshare SI; Crossref corroboration",
-      "preserved_reading_status": "关键证据已核对"
+      "preserved_reading_status": "正文/作者稿关键证据已读；关键证据已核对"
     },
     {
       "id": "SRC-000005",
@@ -84,7 +84,7 @@
         "Publisher HTML title metadata drops some layer brackets; retain readable stack typography from existing record"
       ],
       "evidence": "Publisher Chinese Physics B citation metadata; deposited Crossref corroboration",
-      "preserved_reading_status": "关键证据已核对"
+      "preserved_reading_status": "正文/作者稿关键证据已读；关键证据已核对"
     },
     {
       "id": "SRC-000006",
@@ -99,7 +99,7 @@
         "PubMed presented browser verification; no new primary-page field check"
       ],
       "evidence": "https://api.crossref.org/works/10.1166/jnn.2014.9972",
-      "preserved_reading_status": "未读正文"
+      "preserved_reading_status": "正文未读；未读正文"
     },
     {
       "id": "SRC-000008",
@@ -113,7 +113,7 @@
         "Total PDF page count retained from previous record; not re-counted this round"
       ],
       "evidence": "Qucosa institutional landing page citation metadata",
-      "preserved_reading_status": "题名、目录及指定章节已读"
+      "preserved_reading_status": "指定章节/页面选读；题名、目录及指定章节已读"
     },
     {
       "id": "SRC-000009",
@@ -127,7 +127,7 @@
         "Total PDF page count retained from previous record; not re-counted this round"
       ],
       "evidence": "University of Leeds / White Rose institutional thesis landing page",
-      "preserved_reading_status": "§5.8和§7.2关键证据已读"
+      "preserved_reading_status": "指定章节/页面选读；§5.8和§7.2关键证据已读"
     },
     {
       "id": "SRC-000010",
@@ -146,7 +146,7 @@
       ],
       "unresolved": [],
       "evidence": "Publisher citation meta tags, full article and published PDF",
-      "preserved_reading_status": "关键证据已核对"
+      "preserved_reading_status": "正文/作者稿关键证据已读；关键证据已核对"
     },
     {
       "id": "SRC-000011",
@@ -160,7 +160,7 @@
         "2021 manuscript-header anomaly remains unresolved; preprint date is not publication year"
       ],
       "evidence": "arXiv institutional record plus publisher-deposited Crossref metadata",
-      "preserved_reading_status": "关键证据已核对"
+      "preserved_reading_status": "正文/作者稿关键证据已读；关键证据已核对"
     },
     {
       "id": "SRC-000012",
@@ -175,7 +175,7 @@
         "Publisher HTTP403; Crossref-only corroboration this round; full text still missing"
       ],
       "evidence": "https://api.crossref.org/works/10.1016/j.jmmm.2018.10.090",
-      "preserved_reading_status": "未读正文"
+      "preserved_reading_status": "正文未读；未读正文"
     },
     {
       "id": "SRC-000013",
@@ -190,7 +190,7 @@
         "Publisher HTTP403; preserve prior PDF verification and internal scientific discrepancies"
       ],
       "evidence": "https://api.crossref.org/works/10.3390/magnetochemistry12010013",
-      "preserved_reading_status": "pp.1–11关键原文与图号已核；保留内部差异"
+      "preserved_reading_status": "正文/作者稿关键证据已读；pp.1–11关键原文与图号已核；保留内部差异"
     },
     {
       "id": "SRC-000014",
@@ -204,7 +204,7 @@
         "Speaker and date retained from prior official-schedule verification; not freshly rechecked against schedule this round"
       ],
       "evidence": "Official ESM course PDF title page",
-      "preserved_reading_status": "指定页面已读；录像未看"
+      "preserved_reading_status": "指定章节/页面选读；指定页面已读；录像未看"
     },
     {
       "id": "SRC-000016",
@@ -218,7 +218,7 @@
         "Full talk/slides/video not obtained"
       ],
       "evidence": "Official AVS session ProgramBook PDF p.1",
-      "preserved_reading_status": "会议摘要已读"
+      "preserved_reading_status": "仅摘要/公告阅读；会议摘要已读"
     },
     {
       "id": "SRC-000017",
@@ -232,7 +232,7 @@
         "Announcement only; no talk transcript or scientific timestamp verified"
       ],
       "evidence": "SPINTEC official seminar announcement text",
-      "preserved_reading_status": "仅公告与摘要"
+      "preserved_reading_status": "仅摘要/公告阅读；仅公告与摘要"
     },
     {
       "id": "SRC-000018",
@@ -245,7 +245,7 @@
         "Institutional site connection failed; no new primary-source metadata check"
       ],
       "evidence": "Existing catalog and linked institutional source; no invented DOI or page fields",
-      "preserved_reading_status": "未读正文"
+      "preserved_reading_status": "正文未读；未读正文"
     },
     {
       "id": "SRC-000019",
@@ -259,7 +259,7 @@
         "2020 preprint and 2021 journal year must remain distinct"
       ],
       "evidence": "arXiv institutional record and publisher-deposited Crossref metadata",
-      "preserved_reading_status": "关键证据已核对"
+      "preserved_reading_status": "正文/作者稿关键证据已读；关键证据已核对"
     },
     {
       "id": "SRC-000020",
@@ -275,7 +275,7 @@
         "Figure and page locators remain arXiv v3; not silently remapped to journal version"
       ],
       "evidence": "arXiv institutional record and publisher-deposited Crossref metadata; https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.140411",
-      "preserved_reading_status": "关键证据已核对"
+      "preserved_reading_status": "正文/作者稿关键证据已读；关键证据已核对"
     },
     {
       "id": "SRC-000021",
@@ -289,7 +289,7 @@
         "Current duration metadata PT75M9S differs by one second from previous 75:08 record; verify player before changing duration; no scientific timestamps verified"
       ],
       "evidence": "Official LNMM NISER YouTube page public metadata",
-      "preserved_reading_status": "仅元数据"
+      "preserved_reading_status": "仅元数据核对；仅元数据"
     },
     {
       "id": "SRC-000023",
@@ -301,7 +301,7 @@
       ],
       "unresolved": [],
       "evidence": "Publisher Scientific Reports citation metadata and Crossref corroboration",
-      "preserved_reading_status": "身份及材料范围已核对"
+      "preserved_reading_status": "正文部分阅读；身份及材料范围已核对"
     },
     {
       "id": "SRC-000025",
@@ -313,7 +313,7 @@
       ],
       "unresolved": [],
       "evidence": "NIH PMC publisher-deposited full article metadata and Crossref corroboration",
-      "preserved_reading_status": "关键段落与图注已核对"
+      "preserved_reading_status": "正文/作者稿关键证据已读；关键段落与图注已核对"
     },
     {
       "id": "SRC-000026",
@@ -332,7 +332,7 @@
       ],
       "unresolved": [],
       "evidence": "Publisher citation meta tags, full article and published PDF",
-      "preserved_reading_status": "关键证据已核对"
+      "preserved_reading_status": "正文/作者稿关键证据已读；关键证据已核对"
     },
     {
       "id": "SRC-000027",
@@ -346,7 +346,7 @@
         "Method report, not material experiment; report-page count retained from earlier record"
       ],
       "evidence": "NIST official report cover and deposited Crossref record",
-      "preserved_reading_status": "指定方法章节已读"
+      "preserved_reading_status": "指定章节/页面选读；指定方法章节已读"
     },
     {
       "id": "SRC-000028",
@@ -365,7 +365,7 @@
         "DOI"
       ],
       "evidence": "Published PDF and publisher/institution metadata",
-      "preserved_reading_status": "出版原文正文5页及关键图表已读；HAL文件含2页封面，共7页",
+      "preserved_reading_status": "正文/作者稿关键证据已读；出版原文正文5页及关键图表已读；HAL文件含2页封面，共7页",
       "unresolved": [
         "Scope and limitations are explicit in the reading card; SI/figure gaps are not inferred away"
       ]
@@ -387,7 +387,7 @@
         "DOI"
       ],
       "evidence": "Publisher-deposited Crossref metadata and registered primary entry; full text not obtained",
-      "preserved_reading_status": "书目已核；正文与图级证据未取得",
+      "preserved_reading_status": "正文未读；书目已核；正文与图级证据未取得",
       "unresolved": [
         "Scope and limitations are explicit in the reading card; SI/figure gaps are not inferred away"
       ]
@@ -409,7 +409,7 @@
         "DOI"
       ],
       "evidence": "Publisher-deposited Crossref metadata and registered primary entry; full text not obtained",
-      "preserved_reading_status": "书目与官方预览入口已核；完整正文未取得",
+      "preserved_reading_status": "正文未读；书目与官方预览入口已核；完整正文未取得",
       "unresolved": [
         "Scope and limitations are explicit in the reading card; SI/figure gaps are not inferred away"
       ]
@@ -431,7 +431,7 @@
         "DOI"
       ],
       "evidence": "Published PDF and publisher/institution metadata",
-      "preserved_reading_status": "正文pp.1–8及Figs.1–5已读；面内MTJ邻近证据",
+      "preserved_reading_status": "正文/作者稿关键证据已读；正文pp.1–8及Figs.1–5已读；面内MTJ邻近证据",
       "unresolved": [
         "Scope and limitations are explicit in the reading card; SI/figure gaps are not inferred away"
       ]
@@ -453,7 +453,7 @@
         "DOI"
       ],
       "evidence": "Published PDF and publisher/institution metadata",
-      "preserved_reading_status": "正文pp.1–5及Figs.1–4、Table1已读；SI S1/S3/S8选读",
+      "preserved_reading_status": "正文/作者稿关键证据已读；正文pp.1–5及Figs.1–4、Table1已读；SI S1/S3/S8选读",
       "unresolved": [
         "Scope and limitations are explicit in the reading card; SI/figure gaps are not inferred away"
       ]
@@ -475,7 +475,7 @@
         "DOI"
       ],
       "evidence": "Published PDF and publisher/institution metadata",
-      "preserved_reading_status": "正文pp.1–7及Figs.1–6已读；SI S1–S3已读",
+      "preserved_reading_status": "正文/作者稿关键证据已读；正文pp.1–7及Figs.1–6已读；SI S1–S3已读",
       "unresolved": [
         "Scope and limitations are explicit in the reading card; SI/figure gaps are not inferred away"
       ]
@@ -490,7 +490,7 @@
         "Publisher-deposited title, author order, journal, year, volume, issue, article number and DOI"
       ],
       "evidence": "Local published PDF and SI",
-      "preserved_reading_status": "正文pp.1–6关键证据及SI S1–S3已读；图4/5定位与图5像素已核",
+      "preserved_reading_status": "正文/作者稿关键证据已读；正文pp.1–6关键证据及SI S1–S3已读；图4/5定位与图5像素已核",
       "unresolved": [
         "官方4页PDF已验证；S1–S3已读"
       ]
@@ -505,7 +505,7 @@
         "Publisher-deposited title, author order, journal, year, volume, issue, article number and DOI"
       ],
       "evidence": "Official CHORUS web PDF, 17 pages, body and captions read; independent local PDF retrieval unavailable",
-      "preserved_reading_status": "CHORUS正文PDF pp.2–9与图注pp.13–17已读；原图像素待核",
+      "preserved_reading_status": "正文/作者稿关键证据已读；CHORUS正文PDF pp.2–9与图注pp.13–17已读；原图像素待核",
       "unresolved": [
         "Original figure pixels and standalone SI/license not verified"
       ]
@@ -520,7 +520,7 @@
         "Publisher-deposited title, author order, journal, year, volume, issue, article number and DOI"
       ],
       "evidence": "arXiv v1 PDF and publisher-deposited journal metadata",
-      "preserved_reading_status": "arXiv v1 pp.1–6关键正文、Figs.1–6、Table I已读；正式版未比对",
+      "preserved_reading_status": "正文/作者稿关键证据已读；arXiv v1 pp.1–6关键正文、Figs.1–6、Table I已读；正式版未比对",
       "unresolved": [
         "未确认独立SI；作者稿包含主要方法与模型"
       ]
@@ -535,7 +535,7 @@
         "Publisher-deposited title, author order, journal, year, volume, issue, article number and DOI"
       ],
       "evidence": "Publisher-deposited metadata and official source link; full text not obtained",
-      "preserved_reading_status": "机构书目与勘误存在性已核；正文和勘误内容未读",
+      "preserved_reading_status": "正文未读；机构书目与勘误存在性已核；正文和勘误内容未读",
       "unresolved": [
         "勘误DOI已核，正文未取；未确认独立SI"
       ]
@@ -550,7 +550,7 @@
         "Publisher-deposited title, author order, journal, year, volume, issue, article number and DOI"
       ],
       "evidence": "CHORUS 25-page web PDF, body and figure-caption text; original pixels not independently verified",
-      "preserved_reading_status": "CHORUS作者稿PDF pp.5–15关键正文、pp.16–22图注已读；图内高清像素未核",
+      "preserved_reading_status": "正文/作者稿关键证据已读；CHORUS作者稿PDF pp.5–15关键正文、pp.16–22图注已读；图内高清像素未核",
       "unresolved": [
         "未确认独立SI；作者稿图页不是独立SI"
       ]
@@ -565,7 +565,7 @@
         "Publisher-deposited title, author order, journal, year, volume, issue, article number and DOI"
       ],
       "evidence": "Publisher-deposited metadata and official source link; full text not obtained",
-      "preserved_reading_status": "书目与官方作者PDF入口已核；未读正文",
+      "preserved_reading_status": "正文未读；书目与官方作者PDF入口已核；未读正文",
       "unresolved": [
         "未确认"
       ]
@@ -580,7 +580,7 @@
         "Official NIST manual cover, version/date and selected exchange-energy sections"
       ],
       "evidence": "NIST official 308-page PDF; selected sections only",
-      "preserved_reading_status": "PDF pp.69–70、72–75 / 印刷pp.63–64、66–69交换能说明已读；非全册阅读",
+      "preserved_reading_status": "指定章节/页面选读；PDF pp.69–70、72–75 / 印刷pp.63–64、66–69交换能说明已读；非全册阅读",
       "unresolved": [
         "手册非期刊SI；软件示例未运行"
       ]
@@ -591,7 +591,7 @@
       "doi": "10.1038/am.2016.162",
       "owner_approved": false,
       "batch": "B20261030",
-      "preserved_reading_status": "出版PDF5页；正文pp.1–4及SI三页已读",
+      "preserved_reading_status": "正文/作者稿关键证据已读；出版PDF5页；正文pp.1–4及SI三页已读",
       "verified_this_round": [
         "author order, title, year, journal, volume, issue, article identifier, DOI from publisher-deposited metadata and read source"
       ],
@@ -606,7 +606,7 @@
       "doi": "10.1103/physrevb.110.184401",
       "owner_approved": false,
       "batch": "B20261030",
-      "preserved_reading_status": "arXiv v3共8页；正文pp.1–7与图号已读；正式版页码未映射",
+      "preserved_reading_status": "正文/作者稿关键证据已读；arXiv v3共8页；正文pp.1–7与图号已读；正式版页码未映射",
       "verified_this_round": [
         "author order, title, year, journal, volume, issue, article identifier, DOI from publisher-deposited metadata and read source"
       ],
@@ -621,7 +621,7 @@
       "doi": "10.1038/srep05328",
       "owner_approved": false,
       "batch": "B20261030",
-      "preserved_reading_status": "出版PDF5页；正文pp.1–4已读",
+      "preserved_reading_status": "正文/作者稿关键证据已读；出版PDF5页；正文pp.1–4已读",
       "verified_this_round": [
         "author order, title, year, journal, volume, issue, article identifier, DOI from publisher-deposited metadata and read source"
       ],

@@ -1,5 +1,5 @@
 {
-  "scope": "Public literature metadata; 29 records; B20261029 candidates remain separate from previously approved hashes",
+  "scope": "Public literature metadata; 39 records; 29 published baseline records plus 10 B20261030 candidates; reading scope and publication approval are separate",
   "records": [
     {
       "id": "SRC-000001",
@@ -31,10 +31,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "本地PDF及官方HTML已验证",
       "si_status": "本地PDF已验证；关键图已读",
-      "reading_status": "关键证据已核对",
+      "reading_status": "正文/作者稿关键证据已读；关键证据已核对",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
-      "core": true
+      "core": true,
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000002",
@@ -71,10 +72,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "本地PDF及官方HTML已验证",
       "si_status": "本地DOCX已验证；关键Note已读",
-      "reading_status": "关键证据已核对",
+      "reading_status": "正文/作者稿关键证据已读；关键证据已核对",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
-      "core": true
+      "core": true,
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000003",
@@ -104,10 +106,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "本地PDF及官方HTML已验证",
       "si_status": "官方页面未检出独立SI链接；未确认是否存在",
-      "reading_status": "关键证据已核对",
+      "reading_status": "正文/作者稿关键证据已读；关键证据已核对",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
-      "core": true
+      "core": true,
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000004",
@@ -139,7 +142,7 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "HAL作者稿PDF已验证；出版PDF未取得",
       "si_status": "官方Figshare PDF已验证；S1–S4已读",
-      "reading_status": "关键证据已核对",
+      "reading_status": "正文/作者稿关键证据已读；关键证据已核对",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
       "core": true,
@@ -158,7 +161,8 @@
         "TMR_percent": null,
         "RA_ohm_um2": null,
         "source_anchor": "SI S2; no numeric transport metric imported from unrelated sample"
-      }
+      },
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000005",
@@ -187,10 +191,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "官方PDF及HTML已验证",
       "si_status": "官方页未检出SI；未确认是否存在",
-      "reading_status": "关键证据已核对",
+      "reading_status": "正文/作者稿关键证据已读；关键证据已核对",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
-      "core": true
+      "core": true,
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000006",
@@ -215,10 +220,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "仅元数据/摘要；未取得正文",
       "si_status": "未确认",
-      "reading_status": "未读正文",
+      "reading_status": "正文未读；未读正文",
       "evidence_role": "辅助资料",
       "evidence_grade": "E3 身份/摘要/部分阅读",
-      "core": false
+      "core": false,
+      "reading_category": "main_text_unread"
     },
     {
       "id": "SRC-000008",
@@ -242,10 +248,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "机构库PDF已验证",
       "si_status": "论文内附录已定位；代码未执行",
-      "reading_status": "题名、目录及指定章节已读",
+      "reading_status": "指定章节/页面选读；题名、目录及指定章节已读",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
-      "core": true
+      "core": true,
+      "reading_category": "selected_sections_read"
     },
     {
       "id": "SRC-000009",
@@ -269,10 +276,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "机构库PDF已验证",
       "si_status": "附录/独立附件未全面检查",
-      "reading_status": "§5.8和§7.2关键证据已读",
+      "reading_status": "指定章节/页面选读；§5.8和§7.2关键证据已读",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
-      "core": true
+      "core": true,
+      "reading_category": "selected_sections_read"
     },
     {
       "id": "SRC-000010",
@@ -309,10 +317,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "本地PDF及官方HTML已验证",
       "si_status": "官方PDF已验证；关键Note已核对",
-      "reading_status": "关键证据已核对",
+      "reading_status": "正文/作者稿关键证据已读；关键证据已核对",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
-      "core": true
+      "core": true,
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000011",
@@ -340,10 +349,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "arXiv PDF已验证；期刊版未取得",
       "si_status": "未确认独立SI",
-      "reading_status": "关键证据已核对",
+      "reading_status": "正文/作者稿关键证据已读；关键证据已核对",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
-      "core": true
+      "core": true,
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000012",
@@ -367,10 +377,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "仅预览/摘要；未取得正文",
       "si_status": "未确认",
-      "reading_status": "未读正文",
+      "reading_status": "正文未读；未读正文",
       "evidence_role": "核心证据候选",
       "evidence_grade": "E3 身份/摘要/部分阅读",
-      "core": false
+      "core": false,
+      "reading_category": "main_text_unread"
     },
     {
       "id": "SRC-000013",
@@ -398,10 +409,11 @@
       "identity_status": "Crossref与出版PDF交叉核对",
       "fulltext_status": "出版社公开PDF已验证（13页）",
       "si_status": "未确认独立SI；不以未发现代表不存在",
-      "reading_status": "pp.1–11关键原文与图号已核；保留内部差异",
+      "reading_status": "正文/作者稿关键证据已读；pp.1–11关键原文与图号已核；保留内部差异",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位；存在原文内部差异",
-      "core": true
+      "core": true,
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000014",
@@ -424,10 +436,11 @@
       "identity_status": "官方日程与讲义链接已交叉核对",
       "fulltext_status": "官方讲义PDF及课程日程已验证",
       "si_status": "未确认",
-      "reading_status": "指定页面已读；录像未看",
+      "reading_status": "指定章节/页面选读；指定页面已读；录像未看",
       "evidence_role": "背景资料",
       "evidence_grade": "E2 方法/课程选读",
-      "core": false
+      "core": false,
+      "reading_category": "selected_sections_read"
     },
     {
       "id": "SRC-000016",
@@ -451,10 +464,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "官方会议摘要PDF已验证；完整报告未取得",
       "si_status": "未确认",
-      "reading_status": "会议摘要已读",
+      "reading_status": "仅摘要/公告阅读；会议摘要已读",
       "evidence_role": "辅助资料",
       "evidence_grade": "E3 身份/摘要/部分阅读",
-      "core": false
+      "core": false,
+      "reading_category": "abstract_only"
     },
     {
       "id": "SRC-000017",
@@ -477,10 +491,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "官方公告/摘要已取得；完整报告未取得",
       "si_status": "未确认",
-      "reading_status": "仅公告与摘要",
+      "reading_status": "仅摘要/公告阅读；仅公告与摘要",
       "evidence_role": "背景资料",
       "evidence_grade": "E3 身份/摘要/部分阅读",
-      "core": false
+      "core": false,
+      "reading_category": "abstract_only"
     },
     {
       "id": "SRC-000018",
@@ -503,10 +518,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "仅官方摘要及目录；未取得正文",
       "si_status": "未确认",
-      "reading_status": "未读正文",
+      "reading_status": "正文未读；未读正文",
       "evidence_role": "辅助资料",
       "evidence_grade": "E3 身份/摘要/部分阅读",
-      "core": false
+      "core": false,
+      "reading_category": "main_text_unread"
     },
     {
       "id": "SRC-000019",
@@ -535,10 +551,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "arXiv PDF已验证；正式版未取得",
       "si_status": "预印本内模型已读；独立SI未确认",
-      "reading_status": "关键证据已核对",
+      "reading_status": "正文/作者稿关键证据已读；关键证据已核对",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
-      "core": true
+      "core": true,
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000020",
@@ -568,10 +585,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "arXiv v3 PDF已验证",
       "si_status": "正文可读；独立脚本/SI待获取",
-      "reading_status": "关键证据已核对",
+      "reading_status": "正文/作者稿关键证据已读；关键证据已核对",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
-      "core": true
+      "core": true,
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000021",
@@ -595,10 +613,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "公开视频入口及元数据已核对；未逐段观看",
       "si_status": "幻灯片与人工字幕未取得",
-      "reading_status": "仅元数据",
+      "reading_status": "仅元数据核对；仅元数据",
       "evidence_role": "辅助资料",
       "evidence_grade": "E3 身份/摘要/部分阅读",
-      "core": false
+      "core": false,
+      "reading_category": "metadata_only"
     },
     {
       "id": "SRC-000023",
@@ -627,10 +646,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "官方PDF已验证；科学内容部分阅读",
       "si_status": "官方DOC链接已找到；未读",
-      "reading_status": "身份及材料范围已核对",
+      "reading_status": "正文部分阅读；身份及材料范围已核对",
       "evidence_role": "辅助资料",
       "evidence_grade": "E3 身份/摘要/部分阅读",
-      "core": false
+      "core": false,
+      "reading_category": "partial_body_read"
     },
     {
       "id": "SRC-000025",
@@ -663,10 +683,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "官方PMC完整HTML已保存并阅读",
       "si_status": "官方Figshare PDF已验证；S1–S5已读",
-      "reading_status": "关键段落与图注已核对",
+      "reading_status": "正文/作者稿关键证据已读；关键段落与图注已核对",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
-      "core": true
+      "core": true,
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000026",
@@ -694,10 +715,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "官方PDF与PMC完整HTML已验证",
       "si_status": "官方PDF已验证；关键章节与公式已读",
-      "reading_status": "关键证据已核对",
+      "reading_status": "正文/作者稿关键证据已读；关键证据已核对",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
-      "core": true
+      "core": true,
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000027",
@@ -720,10 +742,11 @@
       "identity_status": "官方身份已核对",
       "fulltext_status": "NIST官方PDF已验证",
       "si_status": "报告自身为完整方法文档；未确认独立附件",
-      "reading_status": "指定方法章节已读",
+      "reading_status": "指定章节/页面选读；指定方法章节已读",
       "evidence_role": "背景资料",
       "evidence_grade": "E2 方法/课程选读",
-      "core": false
+      "core": false,
+      "reading_category": "selected_sections_read"
     },
     {
       "id": "SRC-000028",
@@ -753,7 +776,7 @@
       "identity_status": "出版商/机构与DOI元数据已核",
       "fulltext_status": "公开出版/机构PDF已验证",
       "si_status": "独立SI未确认；不以未发现代表不存在",
-      "reading_status": "出版原文正文5页及关键图表已读；HAL文件含2页封面，共7页",
+      "reading_status": "正文/作者稿关键证据已读；出版原文正文5页及关键图表已读；HAL文件含2页封面，共7页",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
       "core": true,
@@ -761,7 +784,8 @@
       "supplementary_url": "",
       "citation_label": "Chatterjee et al. (2017)",
       "last_verified": "2026-10-29",
-      "batch": "B20261029"
+      "batch": "B20261029",
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000029",
@@ -787,7 +811,7 @@
       "identity_status": "出版商登记Crossref书目已核；文章页受限",
       "fulltext_status": "全文未取得；不得从摘要补造图级证据",
       "si_status": "未确认独立SI",
-      "reading_status": "书目已核；正文与图级证据未取得",
+      "reading_status": "正文未读；书目已核；正文与图级证据未取得",
       "evidence_role": "核心证据候选",
       "evidence_grade": "E3 仅书目/公开预览",
       "core": false,
@@ -795,7 +819,8 @@
       "supplementary_url": "",
       "citation_label": "Yun et al. (2016)",
       "last_verified": "2026-10-29",
-      "batch": "B20261029"
+      "batch": "B20261029",
+      "reading_category": "main_text_unread"
     },
     {
       "id": "SRC-000030",
@@ -826,7 +851,7 @@
       "identity_status": "出版商/机构与DOI元数据已核",
       "fulltext_status": "全文未取得；不得从摘要补造图级证据",
       "si_status": "未确认；不据预览补造附件",
-      "reading_status": "书目与官方预览入口已核；完整正文未取得",
+      "reading_status": "正文未读；书目与官方预览入口已核；完整正文未取得",
       "evidence_role": "核心证据候选",
       "evidence_grade": "E3 仅书目/公开预览",
       "core": false,
@@ -834,7 +859,8 @@
       "supplementary_url": "",
       "citation_label": "Yang et al. (2021)",
       "last_verified": "2026-10-29",
-      "batch": "B20261029"
+      "batch": "B20261029",
+      "reading_category": "main_text_unread"
     },
     {
       "id": "SRC-000031",
@@ -868,7 +894,7 @@
       "identity_status": "出版商/机构与DOI元数据已核",
       "fulltext_status": "公开出版/机构PDF已验证",
       "si_status": "官方S1/S2入口已定位；下载返回HTML，附件未核读",
-      "reading_status": "正文pp.1–8及Figs.1–5已读；面内MTJ邻近证据",
+      "reading_status": "正文/作者稿关键证据已读；正文pp.1–8及Figs.1–5已读；面内MTJ邻近证据",
       "evidence_role": "辅助资料",
       "evidence_grade": "E1 原始证据已定位",
       "core": false,
@@ -876,7 +902,8 @@
       "supplementary_url": "https://www.mdpi.com/article/10.3390/nano13182591/s1",
       "citation_label": "Kim et al. (2023)",
       "last_verified": "2026-10-29",
-      "batch": "B20261029"
+      "batch": "B20261029",
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000032",
@@ -919,7 +946,7 @@
       "identity_status": "出版商/机构与DOI元数据已核",
       "fulltext_status": "公开出版/机构PDF已验证",
       "si_status": "官方DOCX已验证；S1/S3/S8选读，其他章节不计完整核读",
-      "reading_status": "正文pp.1–5及Figs.1–4、Table1已读；SI S1/S3/S8选读",
+      "reading_status": "正文/作者稿关键证据已读；正文pp.1–5及Figs.1–4、Table1已读；SI S1/S3/S8选读",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
       "core": true,
@@ -927,7 +954,8 @@
       "supplementary_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs44306-025-00119-7/MediaObjects/44306_2025_119_MOESM1_ESM.docx",
       "citation_label": "Yang et al. (2026)",
       "last_verified": "2026-10-29",
-      "batch": "B20261029"
+      "batch": "B20261029",
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000033",
@@ -953,7 +981,7 @@
       "identity_status": "出版商/机构与DOI元数据已核",
       "fulltext_status": "公开出版/机构PDF已验证",
       "si_status": "官方DOCX已验证；S1–S3已核读",
-      "reading_status": "正文pp.1–7及Figs.1–6已读；SI S1–S3已读",
+      "reading_status": "正文/作者稿关键证据已读；正文pp.1–7及Figs.1–6已读；SI S1–S3已读",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
       "core": true,
@@ -961,7 +989,8 @@
       "supplementary_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-021-94640-4/MediaObjects/41598_2021_94640_MOESM1_ESM.docx",
       "citation_label": "Yang and Lai (2021)",
       "last_verified": "2026-10-29",
-      "batch": "B20261029"
+      "batch": "B20261029",
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000034",
@@ -993,11 +1022,12 @@
       "identity_status": "出版商登记/机构或CHORUS身份已核",
       "fulltext_status": "官方出版PDF已验证，7页",
       "si_status": "官方4页PDF已验证；S1–S3已读",
-      "reading_status": "正文pp.1–6关键证据及SI S1–S3已读；图4/5定位与图5像素已核",
+      "reading_status": "正文/作者稿关键证据已读；正文pp.1–6关键证据及SI S1–S3已读；图4/5定位与图5像素已核",
       "evidence_role": "核心邻近证据",
       "evidence_grade": "E1 原始证据已定位",
       "core": true,
-      "publication_status": "本阶段候选；待按现有机制审核发布"
+      "publication_status": "本阶段候选；待按现有机制审核发布",
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000035",
@@ -1027,11 +1057,12 @@
       "identity_status": "出版商登记/机构或CHORUS身份已核",
       "fulltext_status": "CHORUS网页PDF可读，共17页；本地独立下载403",
       "si_status": "未确认",
-      "reading_status": "CHORUS正文PDF pp.2–9与图注pp.13–17已读；原图像素待核",
+      "reading_status": "正文/作者稿关键证据已读；CHORUS正文PDF pp.2–9与图注pp.13–17已读；原图像素待核",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
       "core": true,
-      "publication_status": "本阶段候选；待按现有机制审核发布"
+      "publication_status": "本阶段候选；待按现有机制审核发布",
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000036",
@@ -1061,11 +1092,12 @@
       "identity_status": "出版商登记/机构或CHORUS身份已核",
       "fulltext_status": "arXiv v1官方PDF已验证，7页；2022作者稿与2023正式出版分开",
       "si_status": "未确认独立SI；作者稿包含主要方法与模型",
-      "reading_status": "arXiv v1 pp.1–6关键正文、Figs.1–6、Table I已读；正式版未比对",
+      "reading_status": "正文/作者稿关键证据已读；arXiv v1 pp.1–6关键正文、Figs.1–6、Table I已读；正式版未比对",
       "evidence_role": "核心方法证据",
       "evidence_grade": "E1 原始证据已定位",
       "core": true,
-      "publication_status": "本阶段候选；待按现有机制审核发布"
+      "publication_status": "本阶段候选；待按现有机制审核发布",
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000037",
@@ -1093,11 +1125,12 @@
       "identity_status": "出版商登记/机构或CHORUS身份已核",
       "fulltext_status": "机构正文PDF403；未取得",
       "si_status": "勘误DOI已核，正文未取；未确认独立SI",
-      "reading_status": "机构书目与勘误存在性已核；正文和勘误内容未读",
+      "reading_status": "正文未读；机构书目与勘误存在性已核；正文和勘误内容未读",
       "evidence_role": "核心证据候选",
       "evidence_grade": "E3 身份/摘要/部分阅读",
       "core": false,
-      "publication_status": "本阶段候选；待按现有机制审核发布"
+      "publication_status": "本阶段候选；待按现有机制审核发布",
+      "reading_category": "main_text_unread"
     },
     {
       "id": "SRC-000038",
@@ -1140,11 +1173,12 @@
       "identity_status": "出版商登记/机构或CHORUS身份已核",
       "fulltext_status": "CHORUS网页PDF可读，共25页；独立本地下载403",
       "si_status": "未确认独立SI；作者稿图页不是独立SI",
-      "reading_status": "CHORUS作者稿PDF pp.5–15关键正文、pp.16–22图注已读；图内高清像素未核",
+      "reading_status": "正文/作者稿关键证据已读；CHORUS作者稿PDF pp.5–15关键正文、pp.16–22图注已读；图内高清像素未核",
       "evidence_role": "核心邻近证据",
       "evidence_grade": "E1 原始证据已定位",
       "core": true,
-      "publication_status": "本阶段候选；待按现有机制审核发布"
+      "publication_status": "本阶段候选；待按现有机制审核发布",
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000039",
@@ -1168,11 +1202,12 @@
       "identity_status": "出版商登记/机构或CHORUS身份已核",
       "fulltext_status": "官方作者站PDF连接失败；未取得",
       "si_status": "未确认",
-      "reading_status": "书目与官方作者PDF入口已核；未读正文",
+      "reading_status": "正文未读；书目与官方作者PDF入口已核；未读正文",
       "evidence_role": "辅助资料候选",
       "evidence_grade": "E3 身份/摘要/部分阅读",
       "core": false,
-      "publication_status": "本阶段候选；待按现有机制审核发布"
+      "publication_status": "本阶段候选；待按现有机制审核发布",
+      "reading_category": "main_text_unread"
     },
     {
       "id": "SRC-000040",
@@ -1194,11 +1229,12 @@
       "identity_status": "官方PDF封面、版本日期已核",
       "fulltext_status": "官方308页PDF已验证；选读交换能章节",
       "si_status": "手册非期刊SI；软件示例未运行",
-      "reading_status": "PDF pp.69–70、72–75 / 印刷pp.63–64、66–69交换能说明已读；非全册阅读",
+      "reading_status": "指定章节/页面选读；PDF pp.69–70、72–75 / 印刷pp.63–64、66–69交换能说明已读；非全册阅读",
       "evidence_role": "背景方法资料",
       "evidence_grade": "E2 指定方法章节已定位",
       "core": false,
-      "publication_status": "本阶段候选；待按现有机制审核发布"
+      "publication_status": "本阶段候选；待按现有机制审核发布",
+      "reading_category": "selected_sections_read"
     },
     {
       "id": "SRC-000041",
@@ -1223,9 +1259,9 @@
         5
       ],
       "identity_status": "出版商登记元数据与原文首页核对",
-      "fulltext_status": "出版PDF5页；正文pp.1–4及SI三页已读",
+      "fulltext_status": "官方出版PDF已验证，5页",
       "si_status": "三个官方单页Supplementary 1/2/3已读",
-      "reading_status": "出版PDF5页；正文pp.1–4及SI三页已读",
+      "reading_status": "正文/作者稿关键证据已读；出版PDF5页；正文pp.1–4及SI三页已读",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
       "core": true,
@@ -1242,7 +1278,8 @@
         "RA_ohm_um2": null,
         "bridge_exchange_J": null,
         "source_anchor": "Main pp.1–3, Fig.1b, Fig.2, Supplementary 2; figure/text termination notation differs"
-      }
+      },
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000042",
@@ -1282,13 +1319,14 @@
         6
       ],
       "identity_status": "出版商登记元数据与原文首页核对",
-      "fulltext_status": "arXiv v3共8页；正文pp.1–7与图号已读；正式版页码未映射",
+      "fulltext_status": "arXiv v3官方PDF已验证，8页；正式版页码未映射",
       "si_status": "独立SI未确认",
-      "reading_status": "arXiv v3共8页；正文pp.1–7与图号已读；正式版页码未映射",
+      "reading_status": "正文/作者稿关键证据已读；arXiv v3共8页；正文pp.1–7与图号已读；正式版页码未映射",
       "evidence_role": "核心邻近机制证据",
       "evidence_grade": "E1 原始证据已定位",
       "core": true,
-      "publication_status": "本阶段候选；待按现有机制审核发布"
+      "publication_status": "本阶段候选；待按现有机制审核发布",
+      "reading_category": "body_evidence_read"
     },
     {
       "id": "SRC-000043",
@@ -1315,13 +1353,15 @@
         6
       ],
       "identity_status": "出版商登记元数据与原文首页核对",
-      "fulltext_status": "出版PDF5页；正文pp.1–4已读",
+      "fulltext_status": "官方出版PDF已验证，5页",
       "si_status": "官方12页SI选读pp.1–8并核p.9限制",
-      "reading_status": "出版PDF5页；正文pp.1–4已读",
+      "reading_status": "正文/作者稿关键证据已读；出版PDF5页；正文pp.1–4已读",
       "evidence_role": "核心证据",
       "evidence_grade": "E1 原始证据已定位",
       "core": true,
-      "publication_status": "本阶段候选；待按现有机制审核发布"
+      "publication_status": "本阶段候选；待按现有机制审核发布",
+      "reading_category": "body_evidence_read"
     }
-  ]
+  ],
+  "reading_status_note": "统一类别描述实际阅读范围；正文可访问不等于已通读，E1/E2/E3不是真实性评分；SI、正式版映射和图像像素核验独立记录。"
 }
